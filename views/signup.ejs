@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Signup</title>
+   <link rel="stylesheet" href="/assests/bootstrap/css/bootstrap.min.css">
+</head>
+<body class="bg-dark">
+  <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+ 
+  <div class="container mt-5">
+    <h2 class="mb-4">Signup</h2>
+
+
+
+    <form action="/signup" method="POST">
+      <div class="mb-3">
+        <label for="name">Full Name</label>
+        <input type="text" name="name" class="form-control" required placeholder="Your name">
+      </div>
+      <div class="mb-3">
+        <label for="email">Email address</label>
+        <input type="email" name="email" class="form-control" required placeholder="Enter email">
+      </div>
+      <div class="mb-3">
+        <label for="password">Password</label>
+        <input type="password" name="password" class="form-control" required placeholder="Choose a password">
+      </div>
+      <div class="mb-3">
+        <label for="role">Register as:</label>
+        <select name="role" class="form-select" required>
+          <option value="teacher">Teacher</option>
+          <option value="student">Student</option>
+        </select>
+      </div>
+      <button type="submit" class="btn btn-success">Sign Up</button>
+      <a href="/login" class="btn btn-link">Already have an account?</a>
+    </form>
+  </div>
+</body>
+</html>

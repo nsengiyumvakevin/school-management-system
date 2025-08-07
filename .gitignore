@@ -1,0 +1,18 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Log files
+*.log
+
+# OS/Editor/Tool junk files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Dependency lock files (optional)
+package-lock.json
+yarn.lock
